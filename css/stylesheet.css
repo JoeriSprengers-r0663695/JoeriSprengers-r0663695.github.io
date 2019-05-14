@@ -1,0 +1,329 @@
+fieldset {
+  padding: 1em;
+  font:80%/1 sans-serif;
+  }
+label {
+  font-size: 14px;
+  width: 50%;
+  margin-right:0.5em;
+  padding-top:0.2em;
+  font-weight:bold;
+  text-align: justify;
+    display: block;
+vertical-align: top;
+   margin-left: 25%;
+    
+
+  }
+.titel{
+    margin-left: 25%;
+    
+    
+}
+textarea{
+     width: 100%;   
+        
+    }
+
+input,textarea {
+    border: 1px solid #888;
+    margin: 2px 0 16px;
+    outline: 0 none;
+    padding: 0.5em;
+    line-height:15px;
+    border-radius: 3px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    box-sizing: border-box;
+    display: block;
+   
+     
+    
+    
+}
+#beoordeling{
+    margin-top: 0px;
+    
+    
+}
+fieldset { 
+    border:1px solid gray 
+}
+#onfo{
+    margin-left: 60px;
+    width: 100%;
+}
+
+legend {
+  padding: 0.2em 0.5em;
+  border:1px solid gray;
+  color:gray;
+  font-size:10px;
+  text-align:right;
+  }
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    text-align: justify;        
+}
+
+
+
+#formulier{
+    margin-top: 20px;
+    font-size: 150%;
+    background-color:rgba(255,0,0,0.5);
+    color: white;
+    padding: 0.1%;
+    text-align: center;
+    text-decoration: none;
+    border-style: solid;
+    border-width:thick;
+    border-color: gray;
+    display: inline-block;
+    height: auto;
+    width: 95%;
+     
+}
+
+#formulier:hover{
+    background-color: red;
+    color: black;
+}
+
+.active
+{
+    background-color: darkgray;
+    color: white;
+}
+body {
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    font-family: "arial";
+    display:flex;
+    justify-content: center;
+    
+}
+
+div.content {
+    background-color: rgba(255, 255, 255, 0.80);
+    width: 75%;
+    margin: 3%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.footertext{
+    font-size: 16px;
+    
+    
+}
+.facebook{
+    font-size: 20px;
+    
+    
+}
+.facebookpic{
+    width: 25px;
+    height: 22px;
+    
+    
+}
+.emailpic{
+    width: 25px;
+    
+    
+}
+.copyright-left{
+    margin-top: 30px;
+  
+}
+
+.logo {
+    background-image: url(img/logo.jpg);
+    background-color: gray;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+}
+
+
+
+.navigation ul {
+    
+    list-style-type: none;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+.list li {
+    float: left;
+    width: 20%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.list li a {
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: gray;
+}
+
+
+.articles img {
+    width: 35%;
+    height: 300px;
+    padding: 5px;
+    border-radius: 25%;
+    display: block;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+article {
+    display: flex;
+    margin: 10px;
+    text-align: justify;
+    
+}
+
+article.links {
+    flex-flow: row-reverse nowrap;
+    text-align: justify;
+    
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body{
+        background-color: lightgray;
+        background-image: none;        
+    }
+    input{
+   
+    }
+    
+    .titel{
+        
+        margin-left: 0%;
+        
+    }
+    label{
+        
+        margin-left: 0%;
+    }
+    #onfo{
+    float: right;
+    margin-top: 0px;
+    margin-right: 0px ; 
+    
+    }
+    
+    label{
+    width: 100%;
+     
+    }
+    
+  .articles img {
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    margin-top:  10px;  
+    border-radius: 0%;
+    }
+    
+    article {
+    display: block;
+    margin: 10px;
+    padding: 10px;  
+    text-align: left;
+    
+    }
+    textarea{
+     width: 100%;   
+        
+    }
+    article.links {
+        text-align: left;
+    }
+    
+    .logo{
+        opacity: 0;
+      
+        height: 0px;
+        
+    }
+    .navigation ul {
+        
+        border-radius: 10%;
+        list-style-type: none;
+        /*margin-top:-100px;*/
+        padding: 0;
+        margin-bottom: 10px;
+        
+        
+    }
+    h1{
+        margin-left: 20px;
+    }
+    h2{
+        text-align: left;
+        
+    }
+    .links h2{
+        text-align: left;
+        
+    }
+    .list li {
+        padding: 2px;
+        margin-bottom: 4px;
+        text-decoration: none;
+        width: inherit;
+    }
+    .list li a{
+        font-size:20px;
+        
+    }
+    nav li:hover {
+        background-color: gray;
+    }
+  
+}
+
+@media screen and (orientation: portrait) {
+    .articles img {
+        width: 80%;
+        height: auto;
+        padding: 5px;
+        text-align: right;
+    }
+   
+}

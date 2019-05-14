@@ -1,0 +1,267 @@
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+body {
+    background-image: url(../img/team.jpg)    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "arial";
+    
+}
+.footercolor{
+    color: white;
+    
+    
+    
+}
+html,
+body {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.footer-social { 
+    
+    float: right;
+    margin-top:5px;
+    height:30px;
+}
+.logo2{
+        opacity: 0;
+      
+        height: 0px;
+        
+    }
+ul.facebook {
+    float:left; 
+    padding:0; 
+    margin:0;
+    font-size: 10px
+}
+
+ul.facebook li {
+    float:left; 
+    list-style:none; 
+    margin-left:5px;
+}
+
+
+.footer-social span { 
+    float:left; 
+}
+.logo {
+    background-image: url(img/logo.jpg);
+    background-color: gray;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+    margin-bottom: 10px;
+}
+div.info {
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap:nowrap;
+    flex-flow: row wrap;
+   
+    margin-left: 33%;
+    margin-right: 33%;
+  
+    
+}
+
+div.info div {
+    color: white;
+    align-self: center;
+    
+    padding: 5px;
+    
+}
+
+div.info div.text {
+   text-align: center;
+    
+}
+
+div.nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    height: 20%;
+    align-items: center;
+}
+
+div.wrapper div {
+    margin: 10px;
+    border: 5px solid white;
+    color: white;
+    font-size: 20px;
+    text-decoration-line: none;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.face {
+width: 25px;
+    
+    
+}
+
+
+
+div.nav div.wie {
+    background-color:rgba(255,0,0,0.85);
+}
+
+div.nav div.wie:hover{
+    background-color: red;
+    
+}
+
+div.nav div.projects {
+    background-color:rgba(141,0,255,0.85);
+}
+div.nav div.projects:hover{
+ background-color: mediumpurple;
+}
+
+div.nav div.events {
+background-color:rgba(255,200,0,0.85);
+}
+
+div.nav div.events:hover{
+    background-color: darkgoldenrod;
+    
+    
+}
+div.nav div.steun {
+    background-color:rgba(0,255,255,0.85);
+}
+div.nav div.steun:hover {
+    background-color:aqua;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body{
+        background-image: none;
+        background-color: skyblue
+        
+        
+    }
+    .mobiletext{
+    
+    opacity: 0;
+}
+  .articles img {
+    width: 80%;
+        height: auto;
+        padding: 5px;
+    border-radius: 0%;
+    }div.info div.text{
+        
+    }
+    article {
+    display: block;
+    margin: 10px;
+    
+}
+    .logo{
+        opacity: 0;
+      
+        height: 0px;
+        
+    }
+    .nav ul {
+        
+        border-radius: 10%;
+        list-style-type: none;
+       
+        padding: 0;
+        margin-bottom: 10px;
+        
+    }
+    div.nav {
+        margin-bottom: 130px;
+        
+        
+    }
+    div.info div.text{
+        visibility: collapse;
+        height: 0px;
+    }
+    div.info div{        
+        visibility: collapse;
+        height: 0px;
+    }
+     .wrapper li {
+        padding: 2px;
+        margin-bottom: 4px;
+        text-decoration: none;
+        width: inherit;
+    }
+    
+    .wrapper li a{
+        font-size:10px;
+        
+    }    
+@media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+    div.nav {
+        margin: 0px;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+    }
+        
+    div.wrapper div {
+        margin: 0px;
+        width: 100vw;
+        min-height: 25vh;
+        height: 6em;
+        overflow-x: hidden;
+    }
+        
+     .logo2{
+        opacity: 1;
+        background-color: gray;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        height: auto;
+        width: 40%;
+        margin-left: 30%;
+        margin-top:10px;
+    }
+        
+    div.info {
+        margin-top: 0px;
+        opacity:0;
+        }
+        
+    .wrapper {
+        display: block;
+    }
+}
+    
+
